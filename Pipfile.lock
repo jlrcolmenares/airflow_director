@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bd26ed818d94e257c8e00f760e6a809fc07f91faf41d3810a34c7c67975e4627"
+            "sha256": "c596c08e2fee59c85aaacbf732735a59eef56e8b7e89c83c03807c609525fbaf"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -380,6 +380,7 @@
                 "sha256:f821213d48f4ab353d20ebc24e4faf94ba40d76680642fb7ce2ea31a3ad94f9b",
                 "sha256:f9d3558d263073ed95e46f4650becff0c5e1ffe0fc3a015de3c79283dfbdb3df"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.9'",
             "version": "==2.2.1"
         },
@@ -456,6 +457,13 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==10.2.0"
+        },
+        "playsound": {
+            "hashes": [
+                "sha256:cc6ed11d773034b0ef624e6bb4bf50f4b76b8414a59ce6d38afb89b423297ced"
+            ],
+            "index": "pypi",
+            "version": "==1.3.0"
         },
         "protobuf": {
             "hashes": [

@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 streamlit = "==1.31.1"
+pandas = "==2.2.1"
+playsound = "*"
 
 [dev-packages]
 jupyter = "==1.0.0"

@@ -12,6 +12,7 @@ __pycache__/
 # Virtual environment
 venv/
 .env
+.envrc
 
 # IDE specific files
 .idea/
@@ -20,7 +21,6 @@ venv/
 # Airflow webserver files
 webserver_config.py
 
-# Local DAGs directory, if you don't want to include it in version control
 dags/
 
 # Airflow plugins
@@ -34,3 +34,6 @@ airflow.db
 
 # Any .env files containing sensitive environment variables
 *.env
+
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/*
