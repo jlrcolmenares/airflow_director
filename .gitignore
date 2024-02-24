@@ -1,0 +1,36 @@
+# Airflow logs
+logs/
+
+# Airflow configuration file that contains sensitive information
+airflow.cfg
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Airflow webserver files
+webserver_config.py
+
+# Local DAGs directory, if you don't want to include it in version control
+dags/
+
+# Airflow plugins
+plugins/
+
+# Temporary files
+tmp/
+
+# Airflow SQLite database, if used
+airflow.db
+
+# Any .env files containing sensitive environment variables
+*.env
