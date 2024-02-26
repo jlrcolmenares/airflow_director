@@ -13,7 +13,7 @@ def play_sound():
 dag = DAG(
     dag_id='play_woodwings',
     description='A musician read his part and play',
-    schedule_interval="40 1 * * *",
+    schedule_interval='*/10 * * * *',
     start_date=datetime(2024, 1, 1),
 )
 
