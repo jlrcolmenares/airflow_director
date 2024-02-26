@@ -1,9 +1,6 @@
 # Airflow logs
 logs/
 
-# Airflow configuration file that contains sensitive information
-airflow.cfg
-
 # System files
 .DS_Store
 __pycache__/
@@ -17,14 +14,6 @@ venv/
 # IDE specific files
 .idea/
 .vscode/
-
-# Airflow webserver files
-webserver_config.py
-
-dags/
-
-# Airflow plugins
-plugins/
 
 # Temporary files
 tmp/

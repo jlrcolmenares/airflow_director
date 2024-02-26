@@ -17,9 +17,3 @@ docker-compose up
 
 Access to `localhost:8080` to username:password use: `airflow:airflow`
 
-
-2. Initialize your streamlit app
-
-
-
-3. Explore the test

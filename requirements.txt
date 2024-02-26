@@ -1,0 +1,5 @@
+
+jupyter==1.0.0
+pandas==2.0.0
+streamlit==1.8.0
+apache-airflow==2.8.2
