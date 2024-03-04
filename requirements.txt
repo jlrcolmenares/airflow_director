@@ -3,3 +3,4 @@ jupyter==1.0.0
 pandas==2.0.0
 streamlit==1.8.0
 apache-airflow==2.8.2
+chime==0.7.0

@@ -5,7 +5,7 @@ from airflow.operators.bash_operator import BashOperator
 
 dag = DAG(
     dag_id='dummy_file_generator',
-    description='Create a file in /tmp/src',
+    description='Create a file in /opt/airflow/tmp/data/',
     schedule_interval='*/10 * * * *',
     start_date=datetime(2024, 1, 1),
     catchup=False
@@ -19,7 +19,7 @@ start_dag = DummyOperator(
 create_delete_file = BashOperator(
     task_id='create_file',
     bash_command="""
-    FILE_PATH="/tmp/my_temp_file.txt"
+    FILE_PATH="/opt/airflow/tmp/data/my_temp_file.txt"
     if [ -f "$FILE_PATH" ]; then
         echo "File $FILE_PATH exists. Deleting..."
         rm "$FILE_PATH"
