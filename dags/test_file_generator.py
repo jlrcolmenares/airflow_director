@@ -1,7 +1,8 @@
-from datetime import datetime
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.bash_operator import BashOperator
+
+from datetime import datetime
 
 dag = DAG(
     dag_id='dummy_file_generator',
