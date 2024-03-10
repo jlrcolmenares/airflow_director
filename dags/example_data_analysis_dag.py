@@ -35,7 +35,7 @@ with DAG(
 
     start = DummyOperator(task_id='start')
 
-    branch_operator = BranchPythonOperator(
+    data_analysis = BranchPythonOperator(
         task_id='branch_decision',
         python_callable=branch_decision,
     )
@@ -56,5 +56,5 @@ with DAG(
         trigger_rule=TriggerRule.DUMMY
     )
 
-    start >> branch_operator >> [success_task, failure_task]
+    start >> data_analysis >> [success_task, failure_task]
     [success_task, failure_task] >> notification_task

@@ -51,7 +51,7 @@ if is_venv_installed():
         start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
         catchup=False,
         schedule="@daily",
-        tags=["example", "example2"],
+        tags=["airflow_example"],
         orientation="TB",
     ) as dag:
         run_this_first = EmptyOperator(
